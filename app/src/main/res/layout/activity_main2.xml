@@ -4,10 +4,29 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="com.example.hasee.animationdome1.Main2Activity">
     <ImageView
-        android:layout_width="400dp"
-        android:layout_height="400dp"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
         android:background="@drawable/mian1_1"/>
+    <Button
+        android:id="@+id/btn_play1"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="测试1"/>
+    <Button
+        android:id="@+id/btn_play2"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="测试2"/>
+    <Button
+        android:id="@+id/btn_play3"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="下个活动"/>
 
 </LinearLayout>
