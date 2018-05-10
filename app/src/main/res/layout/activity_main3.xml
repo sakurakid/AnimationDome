@@ -15,14 +15,14 @@
         android:layout_gravity="center"
         android:layout_height="wrap_content" />
     <Button
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="40dp"
         android:id="@+id/btn_ow2"
         android:text="旋转"
         android:layout_width="80dp"
         android:layout_gravity="center"
         android:layout_height="wrap_content" />
     <Button
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="40dp"
         android:id="@+id/btn_ow3"
         android:text="平移"
         android:layout_width="80dp"
@@ -30,7 +30,7 @@
         android:layout_height="wrap_content" />
 
     <Button
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="40dp"
         android:id="@+id/btn_ow4"
         android:layout_width="80dp"
         android:layout_height="wrap_content"
@@ -38,11 +38,18 @@
         android:text="缩放" />
     <Button
         android:layout_marginTop="50dp"
+        android:id="@+id/btn_ow6"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="组合" />
+    <Button
+        android:layout_marginTop="50dp"
         android:id="@+id/btn_ow5"
         android:layout_width="80dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="下一个" />
+        android:text="下一个活动" />
 
 
 
